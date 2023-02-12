@@ -2,7 +2,7 @@ import styles from "./Chart.module.css";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Label } from "recharts";
 
 // Reading data directly from a JSON file
-import data from "../data/consumption.json";
+import data from "../../data/consumption.json";
 
 const convertedData = data.map((item) => {
   // convert from and to, to hours
