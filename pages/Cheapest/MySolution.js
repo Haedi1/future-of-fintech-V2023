@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const App = () => {
+export const App = () => {
     const [consumptionData, setConsumptionData] = useState([]);
     const [providerData, setProviderData] = useState([]);
     const [cheapestProvider, setCheapestProvider] = useState({});
@@ -50,4 +50,4 @@ const App = () => {
     );
 };
 
-export default App;
+// export default App;

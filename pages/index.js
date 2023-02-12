@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import { Header } from "../components/Header/Header";
+import { App }  from "./Cheapest/MySolution";
 
 
 // We have to import the chart this way because it creates some errors if not.
@@ -28,6 +29,7 @@ export default function Home() {
       <Header />
         <ChartDataFromFile />
         <ChartDataFromAPI />
+        <App />
 
     </main>
   );
