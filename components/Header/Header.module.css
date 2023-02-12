@@ -1,14 +1,14 @@
-/*.header {*/
-/*  background-color: #ad362b;*/
-/*  color: #fff;*/
-/*  padding: 20px;*/
-/*  text-align: center;*/
-/*}*/
-.header-container {
+.header {
+  background-color: #ad362b;
+  color: #fff;
   padding: 20px;
-}
-
-.header-container .ant-typography h2 {
   text-align: center;
-  color: #333;
 }
+/*.header-container {*/
+/*  padding: 20px;*/
+/*}*/
+
+/*.header-container .ant-typography h2 {*/
+/*  text-align: center;*/
+/*  color: #333;*/
+/*}*/

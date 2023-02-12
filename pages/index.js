@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
 import { Header } from "../components/Header/Header";
 
+
 // We have to import the chart this way because it creates some errors if not.
 // You have to do the same if you want to import a component that uses the Rechart library.
 const ChartDataFromFile = dynamic(
@@ -16,13 +17,19 @@ const ChartDataFromAPI = dynamic(
   }
 );
 
+
+
 // This is the page that will be rendered at the root of your site.
 export default function Home() {
   return (
     <main>
+
+
       <Header />
-      <ChartDataFromFile />
-      <ChartDataFromAPI />
+        <ChartDataFromFile />
+        <ChartDataFromAPI />
+
     </main>
   );
 }
+
